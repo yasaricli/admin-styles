@@ -13,6 +13,7 @@ Package.onUse(function(api) {
   // style files
   api.addFiles([
     'styles/default.css',
-    'styles/navy.css'
+    'styles/navy.css',
+    'styles/blue.css'
   ]);
 });

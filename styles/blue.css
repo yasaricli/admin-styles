@@ -1,0 +1,75 @@
+/* blue STYLE */
+
+#AdminLayout.admin-blue { }
+#AdminLayout.admin-blue .admin-wrapper { width:980px; margin:auto; }
+#AdminLayout.admin-blue .admin-header { height: 50px; background-color: #0074D9; }
+
+#AdminLayout.admin-blue .admin-nav { }
+#AdminLayout.admin-blue .admin-nav li { float:left; }
+#AdminLayout.admin-blue .admin-nav li a { color:white; text-decoration:none; font-size:18px; line-height: 50px; padding:0 10px 0 10px; display:block; }
+#AdminLayout.admin-blue .admin-nav .active,
+#AdminLayout.admin-blue .admin-nav a:hover { background-color:#006BC8; }
+#AdminLayout.admin-blue .admin-nav-title a { color:hsla(208, 100%, 85%, 1.0)!important; }
+
+#AdminLayout.admin-blue .admin-nav-user { float:right!important; position:relative; text-align:center; }
+#AdminLayout.admin-blue .admin-nav-user:hover ul { display:block; }
+#AdminLayout.admin-blue .admin-nav-user ul { display:none; position:absolute; width:100%; background-color:#006BC8; left:0px; }
+#AdminLayout.admin-blue .admin-nav-user ul li { width:100%; }
+#AdminLayout.admin-blue .admin-nav-user ul li a { text-align:left; }
+#AdminLayout.admin-blue .admin-nav-user ul li a:hover { background-color:#0074D9; }
+
+#AdminLayout.admin-blue form { }
+#AdminLayout.admin-blue form input,
+#AdminLayout.admin-blue form textarea,
+#AdminLayout.admin-blue form select { border: 1px solid #ccc; outline: none; width:100%; padding:10px; font-size:17px; resize:none; }
+
+#AdminLayout.admin-blue form textarea { min-height:100px; }
+#AdminLayout.admin-blue form label { display:block; margin:10px 0 10px 0; }
+#AdminLayout.admin-blue button { margin:20px 10px 20px 0; outline:none; }
+#AdminLayout.admin-blue .help-block { margin-top: 10px; display: block; color:#0074D9;  }
+
+#AdminLayout.admin-blue .admin-button { background-color:#0074D9; color:#fff; display:block; padding:10px; border:0px; font-size:20px; cursor:pointer; }
+#AdminLayout.admin-blue .admin-button:hover { background-color:#006BC8; }
+
+#AdminLayout.admin-blue .admin-remove-button { background-color:rgb(144, 24, 24); }
+#AdminLayout.admin-blue .admin-remove-button:hover { background-color:rgb(129, 5, 5); }
+
+#AdminLayout.admin-blue table { border-collapse: collapse; border-spacing: 0; }
+#AdminLayout.admin-blue .admin-list-table { margin: 10px auto; font-size: 1.2em; margin-bottom: 15px; width:100%; }
+#AdminLayout.admin-blue .admin-list-table thead { cursor: pointer; background-color: #0074D9; }
+#AdminLayout.admin-blue .admin-list-table thead tr th { font-weight: bold; padding: 12px 30px; padding-left: 42px; position:relative; }
+#AdminLayout.admin-blue .admin-list-table thead tr th:hover, #AdminLayout.admin-blue .admin-list-table .admin-filter-active { background-color:#006BC8; }
+#AdminLayout.admin-blue .admin-list-table .admin-filter-clear { color:hsla(208, 100%, 85%, 1.0); position:absolute; right:10px; top:15px; }
+#AdminLayout.admin-blue .admin-list-table .admin-filter-clear:hover { color:hsla(208, 87%, 75%, 1); }
+#AdminLayout.admin-blue .admin-list-table thead tr th span { padding-right: 20px; background-repeat: no-repeat; background-position: 100% 100%; color:#fff; }
+#AdminLayout.admin-blue .admin-list-table thead tr th.headerSortUp,
+#AdminLayout.admin-blue .admin-list-table thead tr th.headerSortDown { background: #acc8dd; }
+#AdminLayout.admin-blue .admin-list-table tbody tr { color: #555; font-size:15px; }
+#AdminLayout.admin-blue .admin-list-table tbody tr:hover { background-color:#F9F9F9; }
+#AdminLayout.admin-blue .admin-list-table tbody tr td { text-align: center; padding: 15px 10px; }
+#AdminLayout.admin-blue .admin-list-table tbody tr td.lalign { text-align: left; }
+#AdminLayout.admin-blue .admin-list-table a { text-decoration:none; color:#1793C0; }
+#AdminLayout.admin-blue .admin-list-table a:hover { text-decoration:underline; }
+#AdminLayout.admin-blue .admin-list-select a { margin:auto; }
+#AdminLayout.admin-blue .admin-list-select { width:50px; }
+
+#AdminLayout.admin-blue .admin-pagination { list-style:none; border-top:10px solid #006BC8; padding-top: 10px!important; }
+#AdminLayout.admin-blue .admin-pagination li { float:left; margin-bottom:5px; }
+#AdminLayout.admin-blue .admin-pagination li.count { padding: 15px; color: #ccc; }
+#AdminLayout.admin-blue .admin-pagination li a { display:block; background-color:#0074D9; color:white; text-decoration:none; padding:15px; margin-right:2px; }
+#AdminLayout.admin-blue .admin-pagination li a:hover,
+#AdminLayout.admin-blue .admin-pagination li a.current { background-color:#006BC8; }
+
+#AdminLayout.admin-blue .fa-check-circle { color:#CCC; }
+#AdminLayout.admin-blue .fa-check-circle.true { color:#0BF; }
+#AdminLayout.admin-blue .at-error { }
+#AdminLayout.admin-blue .at-error p { margin:0 0 5px 0px; padding:10px; background-color:rgb(126, 3, 3); color:white; }
+
+#AdminLayout.admin-blue .admin-collection-list { }
+#AdminLayout.admin-blue .admin-collection-list li { float:left; background-color:#0074D9; color:white; text-align:center; margin-right:10px; padding:20px 75px 20px 75px; }
+#AdminLayout.admin-blue .admin-collection-list li .admin-collection-name { font-size:25px; }
+#AdminLayout.admin-blue .admin-collection-list li .admin-collection-count { color:hsla(210, 100%, 75%, 1.0); font-weight:bold; font-size:30px; margin-top:10px; }
+
+#AdminLayout.admin-blue .autoform-remove-item { display:none; }
+#AdminLayout.admin-blue .autoform-remove-item,
+#AdminLayout.admin-blue .autoform-add-item { padding:0px; margin:0px; border:0px; background-color:#333; padding:10px; margin-right:10px; }

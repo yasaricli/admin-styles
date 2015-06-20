@@ -12,6 +12,7 @@ Package.onUse(function(api) {
 
   // style files
   api.addFiles([
-    'styles/default.css'
+    'styles/default.css',
+    'styles/navy.css'
   ]);
 });

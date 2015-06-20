@@ -3,8 +3,7 @@ Package.describe({
   version: '0.0.1',
   summary: 'Meteor admin template css styles.',
   git: 'https://github.com/yasaricli/admin-styles',
-  documentation: 'README.md',
-  debugOnly: true
+  documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
@@ -14,6 +13,7 @@ Package.onUse(function(api) {
   api.addFiles([
     'styles/default.css',
     'styles/navy.css',
-    'styles/blue.css'
+    'styles/blue.css',
+    'styles/yellow.css'
   ]);
 });

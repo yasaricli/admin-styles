@@ -1,0 +1,75 @@
+/* yellow STYLE */
+
+#AdminLayout.admin-yellow { }
+#AdminLayout.admin-yellow .admin-wrapper { width:980px; margin:auto; }
+#AdminLayout.admin-yellow .admin-header { height: 50px; background-color: #FFDC00; }
+
+#AdminLayout.admin-yellow .admin-nav { }
+#AdminLayout.admin-yellow .admin-nav li { float:left; }
+#AdminLayout.admin-yellow .admin-nav li a { color:white; text-decoration:none; font-size:18px; line-height: 50px; padding:0 10px 0 10px; display:block; }
+#AdminLayout.admin-yellow .admin-nav .active,
+#AdminLayout.admin-yellow .admin-nav a:hover { background-color:rgba(236, 203, 0, 0.97); }
+#AdminLayout.admin-yellow .admin-nav-title a { color:rgba(51, 51, 51, 0.53)!important; font-weight:bold; }
+
+#AdminLayout.admin-yellow .admin-nav-user { float:right!important; position:relative; text-align:center; }
+#AdminLayout.admin-yellow .admin-nav-user:hover ul { display:block; }
+#AdminLayout.admin-yellow .admin-nav-user ul { display:none; position:absolute; width:100%; background-color:rgba(236, 203, 0, 0.97); left:0px; }
+#AdminLayout.admin-yellow .admin-nav-user ul li { width:100%; }
+#AdminLayout.admin-yellow .admin-nav-user ul li a { text-align:left; }
+#AdminLayout.admin-yellow .admin-nav-user ul li a:hover { background-color:#FFDC00; }
+
+#AdminLayout.admin-yellow form { }
+#AdminLayout.admin-yellow form input,
+#AdminLayout.admin-yellow form textarea,
+#AdminLayout.admin-yellow form select { border: 1px solid #ccc; outline: none; width:100%; padding:10px; font-size:17px; resize:none; }
+
+#AdminLayout.admin-yellow form textarea { min-height:100px; }
+#AdminLayout.admin-yellow form label { display:block; margin:10px 0 10px 0; }
+#AdminLayout.admin-yellow button { margin:20px 10px 20px 0; outline:none; }
+#AdminLayout.admin-yellow .help-block { margin-top: 10px; display: block; color: rgb(173, 55, 55); }
+
+#AdminLayout.admin-yellow .admin-button { background-color:#FFDC00; color:#fff; display:block; padding:10px; border:0px; font-size:20px; cursor:pointer; }
+#AdminLayout.admin-yellow .admin-button:hover { background-color:rgba(236, 203, 0, 0.97); }
+
+#AdminLayout.admin-yellow .admin-remove-button { background-color:rgb(144, 24, 24); }
+#AdminLayout.admin-yellow .admin-remove-button:hover { background-color:rgb(129, 5, 5); }
+
+#AdminLayout.admin-yellow table { border-collapse: collapse; border-spacing: 0; }
+#AdminLayout.admin-yellow .admin-list-table { margin: 10px auto; font-size: 1.2em; margin-bottom: 15px; width:100%; }
+#AdminLayout.admin-yellow .admin-list-table thead { cursor: pointer; background-color: #FFDC00; }
+#AdminLayout.admin-yellow .admin-list-table thead tr th { font-weight: bold; padding: 12px 30px; padding-left: 42px; position:relative; }
+#AdminLayout.admin-yellow .admin-list-table thead tr th:hover, #AdminLayout.admin-yellow .admin-list-table .admin-filter-active { background-color:rgba(236, 203, 0, 0.97); }
+#AdminLayout.admin-yellow .admin-list-table .admin-filter-clear { color:#333; position:absolute; right:10px; top:15px; }
+#AdminLayout.admin-yellow .admin-list-table .admin-filter-clear:hover { color:black; }
+#AdminLayout.admin-yellow .admin-list-table thead tr th span { padding-right: 20px; background-repeat: no-repeat; background-position: 100% 100%; color:#fff; }
+#AdminLayout.admin-yellow .admin-list-table thead tr th.headerSortUp,
+#AdminLayout.admin-yellow .admin-list-table thead tr th.headerSortDown { background: #acc8dd; }
+#AdminLayout.admin-yellow .admin-list-table tbody tr { color: #555; font-size:15px; }
+#AdminLayout.admin-yellow .admin-list-table tbody tr:hover { background-color:#F9F9F9; }
+#AdminLayout.admin-yellow .admin-list-table tbody tr td { text-align: center; padding: 15px 10px; }
+#AdminLayout.admin-yellow .admin-list-table tbody tr td.lalign { text-align: left; }
+#AdminLayout.admin-yellow .admin-list-table a { text-decoration:none; color:rgba(236, 203, 0, 0.97); }
+#AdminLayout.admin-yellow .admin-list-table a:hover { text-decoration:underline; }
+#AdminLayout.admin-yellow .admin-list-select a { margin:auto; }
+#AdminLayout.admin-yellow .admin-list-select { width:50px; }
+
+#AdminLayout.admin-yellow .admin-pagination { list-style:none; border-top:10px solid rgba(236, 203, 0, 0.97); padding-top: 10px!important; }
+#AdminLayout.admin-yellow .admin-pagination li { float:left; margin-bottom:5px; }
+#AdminLayout.admin-yellow .admin-pagination li.count { padding: 15px; color: #ccc; }
+#AdminLayout.admin-yellow .admin-pagination li a { display:block; background-color:#FFDC00; color:white; text-decoration:none; padding:15px; margin-right:2px; }
+#AdminLayout.admin-yellow .admin-pagination li a:hover,
+#AdminLayout.admin-yellow .admin-pagination li a.current { background-color:rgba(236, 203, 0, 0.97); }
+
+#AdminLayout.admin-yellow .fa-check-circle { color:#CCC; }
+#AdminLayout.admin-yellow .fa-check-circle.true { color:#0BF; }
+#AdminLayout.admin-yellow .at-error { }
+#AdminLayout.admin-yellow .at-error p { margin:0 0 5px 0px; padding:10px; background-color:rgb(126, 3, 3); color:white; }
+
+#AdminLayout.admin-yellow .admin-collection-list { }
+#AdminLayout.admin-yellow .admin-collection-list li { float:left; background-color:#FFDC00; color:white; text-align:center; margin-right:10px; padding:20px 75px 20px 75px; }
+#AdminLayout.admin-yellow .admin-collection-list li .admin-collection-name { font-size:25px; }
+#AdminLayout.admin-yellow .admin-collection-list li .admin-collection-count { color:rgba(51, 51, 51, 0.53); font-weight:bold; font-size:30px; margin-top:10px; }
+
+#AdminLayout.admin-yellow .autoform-remove-item { display:none; }
+#AdminLayout.admin-yellow .autoform-remove-item,
+#AdminLayout.admin-yellow .autoform-add-item { padding:0px; margin:0px; border:0px; background-color:#333; padding:10px; margin-right:10px; }

@@ -1,0 +1,76 @@
+/* NAVY STYLE */
+
+#AdminLayout.admin-navy { }
+#AdminLayout.admin-navy .admin-wrapper { width:980px; margin:auto; }
+
+#AdminLayout.admin-navy .admin-header { height: 50px; background-color: #333; }
+
+#AdminLayout.admin-navy .admin-nav { }
+#AdminLayout.admin-navy .admin-nav li { float:left; }
+#AdminLayout.admin-navy .admin-nav li a { color:white; text-decoration:none; font-size:18px; line-height: 50px; padding:0 10px 0 10px; display:block; }
+#AdminLayout.admin-navy .admin-nav .active,
+#AdminLayout.admin-navy .admin-nav a:hover { background-color:black; }
+#AdminLayout.admin-navy .admin-nav-title a { color:#f4f379!important; }
+
+#AdminLayout.admin-navy .admin-nav-user { float:right!important; position:relative; text-align:center; }
+#AdminLayout.admin-navy .admin-nav-user:hover ul { display:block; }
+#AdminLayout.admin-navy .admin-nav-user ul { display:none; position:absolute; width:100%; background-color:black; left:0px; }
+#AdminLayout.admin-navy .admin-nav-user ul li { width:100%; }
+#AdminLayout.admin-navy .admin-nav-user ul li a { text-align:left; }
+#AdminLayout.admin-navy .admin-nav-user ul li a:hover { background-color:#333; }
+
+#AdminLayout.admin-navy form { }
+#AdminLayout.admin-navy form input,
+#AdminLayout.admin-navy form textarea,
+#AdminLayout.admin-navy form select { border: 1px solid #ccc; outline: none; width:100%; padding:10px; font-size:17px; resize:none; }
+
+#AdminLayout.admin-navy form textarea { min-height:100px; }
+#AdminLayout.admin-navy form label { display:block; margin:10px 0 10px 0; }
+#AdminLayout.admin-navy button { margin:20px 10px 20px 0; outline:none; }
+#AdminLayout.admin-navy .help-block { margin-top: 10px; display: block; color: rgb(173, 55, 55); }
+
+#AdminLayout.admin-navy .admin-button { background-color:#333; color:#fff; display:block; padding:10px; border:0px; font-size:20px; cursor:pointer; }
+#AdminLayout.admin-navy .admin-button:hover { background-color:black; }
+
+#AdminLayout.admin-navy .admin-remove-button { background-color:rgb(144, 24, 24); }
+#AdminLayout.admin-navy .admin-remove-button:hover { background-color:rgb(129, 5, 5); }
+
+#AdminLayout.admin-navy table { border-collapse: collapse; border-spacing: 0; }
+#AdminLayout.admin-navy .admin-list-table { margin: 10px auto; font-size: 1.2em; margin-bottom: 15px; width:100%; }
+#AdminLayout.admin-navy .admin-list-table thead { cursor: pointer; background: #333; }
+#AdminLayout.admin-navy .admin-list-table thead tr th { font-weight: bold; padding: 12px 30px; padding-left: 42px; position:relative; }
+#AdminLayout.admin-navy .admin-list-table thead tr th:hover, #AdminLayout .admin-list-table .admin-filter-active { background-color:#000; }
+#AdminLayout.admin-navy .admin-list-table .admin-filter-clear { color:#f4f379; position:absolute; right:10px; top:15px; }
+#AdminLayout.admin-navy .admin-list-table .admin-filter-clear:hover { color:#DDDC1B; }
+#AdminLayout.admin-navy .admin-list-table thead tr th span { padding-right: 20px; background-repeat: no-repeat; background-position: 100% 100%; color:#fff; }
+#AdminLayout.admin-navy .admin-list-table thead tr th.headerSortUp,
+#AdminLayout.admin-navy .admin-list-table thead tr th.headerSortDown { background: #acc8dd; }
+#AdminLayout.admin-navy .admin-list-table tbody tr { color: #555; font-size:15px; }
+#AdminLayout.admin-navy .admin-list-table tbody tr:hover { background-color:#F9F9F9; }
+#AdminLayout.admin-navy .admin-list-table tbody tr td { text-align: center; padding: 15px 10px; }
+#AdminLayout.admin-navy .admin-list-table tbody tr td.lalign { text-align: left; }
+#AdminLayout.admin-navy .admin-list-table a { text-decoration:none; color:#1793C0; }
+#AdminLayout.admin-navy .admin-list-table a:hover { text-decoration:underline; }
+#AdminLayout.admin-navy .admin-list-select a { margin:auto; }
+#AdminLayout.admin-navy .admin-list-select { width:50px; }
+
+#AdminLayout.admin-navy .admin-pagination { list-style:none; border-top:10px solid rgba(204, 204, 204, 0.21); padding-top: 10px!important; }
+#AdminLayout.admin-navy .admin-pagination li { float:left; margin-bottom:5px; }
+#AdminLayout.admin-navy .admin-pagination li.count { padding: 15px; color: #ccc; }
+#AdminLayout.admin-navy .admin-pagination li a { display:block; background-color:#333; color:white; text-decoration:none; padding:15px; margin-right:2px; }
+#AdminLayout.admin-navy .admin-pagination li a:hover,
+#AdminLayout.admin-navy .admin-pagination li a.current { background-color:#000; }
+
+#AdminLayout.admin-navy .fa-check-circle { color:#CCC; }
+#AdminLayout.admin-navy .fa-check-circle.true { color:#0BF; }
+#AdminLayout.admin-navy .at-error { }
+#AdminLayout.admin-navy .at-error p { margin:0 0 5px 0px; padding:10px; background-color:rgb(126, 3, 3); color:white; }
+
+#AdminLayout.admin-navy .admin-collection-list { }
+#AdminLayout.admin-navy .admin-collection-list li { float:left; background-color:#333; color:white; text-align:center; margin-right:10px; padding:20px 75px 20px 75px; }
+#AdminLayout.admin-navy .admin-collection-list li .admin-collection-name { font-size:25px; }
+#AdminLayout.admin-navy .admin-collection-list li .admin-collection-count { color:#f4f379; font-weight:bold; font-size:30px; margin-top:10px; }
+
+#AdminLayout.admin-navy .autoform-remove-item { display:none; }
+#AdminLayout.admin-navy .autoform-remove-item,
+#AdminLayout.admin-navy .autoform-add-item { padding:0px; margin:0px; border:0px; background-color:#333; padding:10px; margin-right:10px; }

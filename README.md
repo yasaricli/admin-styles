@@ -1,0 +1,1 @@
+Meteor admin styles

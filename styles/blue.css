@@ -1,7 +1,8 @@
-/* blue STYLE */
+/* BLUE STYLE */
 
 #AdminLayout.admin-blue { }
 #AdminLayout.admin-blue .admin-wrapper { width:980px; margin:auto; }
+
 #AdminLayout.admin-blue .admin-header { height: 50px; background-color: #0074D9; }
 
 #AdminLayout.admin-blue .admin-nav { }
@@ -28,8 +29,10 @@
 #AdminLayout.admin-blue button { margin:20px 10px 20px 0; outline:none; }
 #AdminLayout.admin-blue .help-block { margin-top: 10px; display: block; color:#0074D9;  }
 
-#AdminLayout.admin-blue .admin-button { background-color:#0074D9; color:#fff; display:block; padding:10px; border:0px; font-size:20px; cursor:pointer; }
-#AdminLayout.admin-blue .admin-button:hover { background-color:#006BC8; }
+#AdminLayout.admin-blue .admin-button,
+#AdminLayout.admin-blue .at-btn { background-color:#0074D9; color:#fff; display:block; padding:10px; border:0px; font-size:20px; cursor:pointer; }
+#AdminLayout.admin-blue .admin-button:hover,
+#AdminLayout.admin-blue .at-btn:hover { background-color:#006BC8; }
 
 #AdminLayout.admin-blue .admin-remove-button { background-color:rgb(144, 24, 24); }
 #AdminLayout.admin-blue .admin-remove-button:hover { background-color:rgb(129, 5, 5); }
@@ -38,7 +41,8 @@
 #AdminLayout.admin-blue .admin-list-table { margin: 10px auto; font-size: 1.2em; margin-bottom: 15px; width:100%; }
 #AdminLayout.admin-blue .admin-list-table thead { cursor: pointer; background-color: #0074D9; }
 #AdminLayout.admin-blue .admin-list-table thead tr th { font-weight: bold; padding: 12px 30px; padding-left: 42px; position:relative; }
-#AdminLayout.admin-blue .admin-list-table thead tr th:hover, #AdminLayout.admin-blue .admin-list-table .admin-filter-active { background-color:#006BC8; }
+#AdminLayout.admin-blue .admin-list-table thead tr th:hover,
+#AdminLayout.admin-blue .admin-list-table .admin-filter-active { background-color:#006BC8; }
 #AdminLayout.admin-blue .admin-list-table .admin-filter-clear { color:hsla(208, 100%, 85%, 1.0); position:absolute; right:10px; top:15px; }
 #AdminLayout.admin-blue .admin-list-table .admin-filter-clear:hover { color:hsla(208, 87%, 75%, 1); }
 #AdminLayout.admin-blue .admin-list-table thead tr th span { padding-right: 20px; background-repeat: no-repeat; background-position: 100% 100%; color:#fff; }

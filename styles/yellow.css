@@ -1,7 +1,8 @@
-/* yellow STYLE */
+/* YELLOW STYLE */
 
 #AdminLayout.admin-yellow { }
 #AdminLayout.admin-yellow .admin-wrapper { width:980px; margin:auto; }
+
 #AdminLayout.admin-yellow .admin-header { height: 50px; background-color: #FFDC00; }
 
 #AdminLayout.admin-yellow .admin-nav { }
@@ -28,8 +29,10 @@
 #AdminLayout.admin-yellow button { margin:20px 10px 20px 0; outline:none; }
 #AdminLayout.admin-yellow .help-block { margin-top: 10px; display: block; color: rgb(173, 55, 55); }
 
-#AdminLayout.admin-yellow .admin-button { background-color:#FFDC00; color:#fff; display:block; padding:10px; border:0px; font-size:20px; cursor:pointer; }
-#AdminLayout.admin-yellow .admin-button:hover { background-color:rgba(236, 203, 0, 0.97); }
+#AdminLayout.admin-yellow .admin-button,
+#AdminLayout.admin-yellow .at-btn { background-color:#FFDC00; color:#fff; display:block; padding:10px; border:0px; font-size:20px; cursor:pointer; }
+#AdminLayout.admin-yellow .admin-button:hover,
+#AdminLayout.admin-yellow .at-btn:hover { background-color:rgba(236, 203, 0, 0.97); }
 
 #AdminLayout.admin-yellow .admin-remove-button { background-color:rgb(144, 24, 24); }
 #AdminLayout.admin-yellow .admin-remove-button:hover { background-color:rgb(129, 5, 5); }
@@ -38,7 +41,8 @@
 #AdminLayout.admin-yellow .admin-list-table { margin: 10px auto; font-size: 1.2em; margin-bottom: 15px; width:100%; }
 #AdminLayout.admin-yellow .admin-list-table thead { cursor: pointer; background-color: #FFDC00; }
 #AdminLayout.admin-yellow .admin-list-table thead tr th { font-weight: bold; padding: 12px 30px; padding-left: 42px; position:relative; }
-#AdminLayout.admin-yellow .admin-list-table thead tr th:hover, #AdminLayout.admin-yellow .admin-list-table .admin-filter-active { background-color:rgba(236, 203, 0, 0.97); }
+#AdminLayout.admin-yellow .admin-list-table thead tr th:hover,
+#AdminLayout.admin-yellow .admin-list-table .admin-filter-active { background-color:rgba(236, 203, 0, 0.97); }
 #AdminLayout.admin-yellow .admin-list-table .admin-filter-clear { color:#333; position:absolute; right:10px; top:15px; }
 #AdminLayout.admin-yellow .admin-list-table .admin-filter-clear:hover { color:black; }
 #AdminLayout.admin-yellow .admin-list-table thead tr th span { padding-right: 20px; background-repeat: no-repeat; background-position: 100% 100%; color:#fff; }
